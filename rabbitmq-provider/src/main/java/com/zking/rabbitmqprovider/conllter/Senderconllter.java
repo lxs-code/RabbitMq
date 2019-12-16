@@ -70,7 +70,7 @@ public class Senderconllter {
         bk.setName("你妈的");
 
         map.put("code",0);
-//    rabbitTemplate.convertAndSend("first", map);
+//    rabbitTemplate.convertAndSend("first", map);aa
         rabbitTemplate.convertAndSend("normal_queue", "direct_routing", bk);
         return map;
     }
