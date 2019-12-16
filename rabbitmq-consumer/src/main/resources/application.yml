@@ -1,0 +1,23 @@
+
+
+
+#     server.port=8080
+#     ## rabbitmq config
+#     spring.rabbitmq.host=192.168.199.144
+#     spring.rabbitmq.port=5672
+#     spring.rabbitmq.username=springboot
+#     spring.rabbitmq.password=123456
+# ## ����������ʱ������������һ��~~~����������ʱ������������һ��~~~����������ʱ������������һ��~~~
+#     spring.rabbitmq.virtual-host=my_vhost
+#     #��Ϣ���͵�������ȷ�ϻ���,�Ƿ�ȷ�ϻص�
+#     spring.rabbitmq.publisher-confirms=true
+server:
+  port: 7002
+spring:
+  rabbitmq:
+    host: 192.168.140.132
+    port: 5672
+    username: springboot
+    password: 123456
+    virtual-host: my_vhost
+#    publisher-confirms: true

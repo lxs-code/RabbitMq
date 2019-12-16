@@ -1,0 +1,11 @@
+
+server:
+  port: 7001
+spring:
+  rabbitmq:
+    host: 192.168.140.132
+    port: 5672
+    username: springboot
+    password: 123456
+    virtual-host: my_vhost
+#    publisher-confirms: true
