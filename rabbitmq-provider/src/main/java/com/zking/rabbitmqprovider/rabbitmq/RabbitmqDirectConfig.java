@@ -39,7 +39,7 @@ public static  final String NORMAL_QUEUE_NAME="normal_queue";//正常队列名
     @Bean
     public RabbitTemplate createRabbitTemplate(ConnectionFactory connectionFactory, Jackson2JsonMessageConverter jackson2JsonMessageConverter) {
         RabbitTemplate rabbitTemplate = new RabbitTemplate(connectionFactory);
-        rabbitTemplate.setMessageConverter(jackson2JsonMessageConverter);//指定json转换器
+        rabbitTemplate.setMessageConverter(jackson2JsonMessageConverter);//指定json转换器123
         return rabbitTemplate;
     }
 
